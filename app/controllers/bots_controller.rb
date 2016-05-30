@@ -14,4 +14,10 @@ class BotsController < ApplicationController
   def refactor
     @bots = Bot.all
   end
+  def new_feature
+    @bots = Bot.all
+  end
+  def do_refactor
+    @bot = Bot.all
+  end
 end

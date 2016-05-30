@@ -9,6 +9,8 @@ get "pass", to: "bots#pass"
 get "write_a_test", to: "bots#write_a_test"
 get "write_code", to: "bots#write_code"
 get "refactor", to: "bots#refactor"
+get "new_feature", to: "bots#new_feature"
+get "do_refactor", to: "bots#do_refactor"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
